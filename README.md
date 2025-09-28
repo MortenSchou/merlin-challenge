@@ -23,6 +23,6 @@ Implementér funktionen `int pick_a_card(int current_number, int k)` i [merlin.c
 Funktionen kender til det nuværende tal på stativet og det største kort `k` som Merlin må bruge.
 Du kan teste din funktion, ved at køre programmet i [challenge.c](challenge.c).
 Her er `k` sat til 4, men dit program skal virke med forskellige værdier af `k`.
-Hvad bliver din highscore for de hvert `k` fra 2 til 9?
+Hvad bliver din highscore for hvert `k` fra 2 til 9?
 
 Merlin må gerne spørge børnene, om et tal allerede er set. Det gør han med ved at kalde funktionen `int has_seen_number(int number)`.
