@@ -2,8 +2,8 @@
 
 Magical Merlin is going to entertain the children in a village with his new magic trick. 
 For this, he has some cards with digits from 1 to 9 (he has multiple cards of each digit), 
-and a stand with space for three cards side by side, which starts out empty. 
-Each time Merlin draws a card, he places it on the far right of the stand and shifts the other cards one position to the left. 
+and a stand with space for three cards side by side, which starts empty. 
+Each time Merlin picks a card, he places it on the far right of the stand and shifts the other cards one position to the left. 
 If there are no more spaces on the stand, the card furthest to the left goes back into the deck.
 
 The children don’t really understand Merlin’s magic trick, so they come up with their own game:
@@ -14,11 +14,11 @@ The children don’t really understand Merlin’s magic trick, so they come up w
     If the number formed by the middle and rightmost cards hasn’t been seen before, the child gives bonus points equal to this number multiplied by the number of cards Merlin has drawn.
  5) The youngest child says she is only 4 years old and therefore doesn’t understand numbers greater than 4, so she asks Merlin to only use cards with digits from 1 to 4.
  
-Help Merlin decide which cards to draw so he earns the most points (including bonus points) when the game ends.
+Help Merlin decide which cards to pick so he earns the most points (including bonus points) when the game ends.
 
 If Merlin is going to play the game in another village, the youngest child might be a different age, so he wants to prepare to use cards from 1 to `k`, where `k` can be anything from 2 to 9.
 
-Implement the function `int pick_a_card(int current_number, int k)` in [merlin.c](merlin.c), which should tell Merlin which card to draw each time. 
+Implement the function `int pick_a_card(int current_number, int k)` in [merlin.c](merlin.c), which should tell Merlin which card to pick each time. 
 The function knows the current number on the stand and the highest digit `k` that Merlin is allowed to use. 
 You can test your function by running the program in [challenge.c](challenge.c). 
 Here, `k` is set to 4, but your program should work with different values of `k`. 
