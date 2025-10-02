@@ -25,4 +25,4 @@ Du kan teste din funktion, ved at køre programmet i [challenge.c](challenge.c).
 Her er `k` sat til 4, men dit program skal virke med forskellige værdier af `k`.
 Hvad bliver din highscore for hvert `k` fra 2 til 9?
 
-Merlin må gerne spørge børnene, om et tal allerede er set. Det gør han med ved at kalde funktionen `int has_seen_number(int number)`.
+Merlin må gerne spørge børnene, om et tal allerede er set. Det gør han ved at kalde funktionen `int has_seen_number(int number)`.
