@@ -22,7 +22,7 @@ int main() {
         printf("Round %3d:  ", round);
 
         // Pick a card
-        int card = pick_a_card(cards_to_number(card1, card2, card3), k);
+        int card = pick_a_card(cards_to_number(card1, card2, card3), round - 1, k);
         if (card <= 0 || card > k) {
             if (card == 0) {
                 printf("Picked 0 to end the performance\n");

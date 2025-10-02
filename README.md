@@ -18,8 +18,8 @@ Help Merlin decide which cards to pick so he earns the most points (including bo
 
 If Merlin is going to play the game in another village, the youngest child might be a different age, so he wants to prepare to use cards from 1 to `k`, where `k` can be anything from 2 to 9.
 
-Implement the function `int pick_a_card(int current_number, int k)` in [merlin.c](merlin.c), which should tell Merlin which card to pick each time. 
-The function knows the current number on the stand and the highest digit `k` that Merlin is allowed to use. 
+Implement the function `int pick_a_card(int current_number, int cards_drawn, int k)` in [merlin.c](merlin.c), which should tell Merlin which card to pick each time. 
+The function knows the current number on the stand, how many cards Merlin has already drawn, and the highest digit `k` that Merlin is allowed to use. 
 You can test your function by running the program in [challenge.c](challenge.c). 
 Here, `k` is set to 4, but your program should work with different values of `k`. 
 What is your high score for each `k` from 2 to 9?
